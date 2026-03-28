@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest:manifest xmlns:manifest="http://openoffice.org/extensions/manifest/2006">
+    <manifest:file-entry manifest:media-type="application/vnd.sun.star.configuration-data"
+                        manifest:full-path="Addons.xcu"/>
+    <manifest:file-entry manifest:media-type="application/vnd.sun.star.uno-component;type=Python"
+                        manifest:full-path="python/main.py"/>
+    <manifest:file-entry manifest:media-type="application/vnd.sun.star.dialog-library"
+                        manifest:full-path="dialogs/"/>
+    <manifest:file-entry manifest:media-type="application/vnd.sun.star.basic-library"
+                        manifest:full-path="dialogs/"/>
+</manifest:manifest>

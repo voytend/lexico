@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:id="PromptDialog" dlg:left="100" dlg:top="100" dlg:width="250" dlg:height="200" dlg:closeable="true" dlg:moveable="true" dlg:title="LM Studio AI Assistant">
+ <dlg:bulletinboard>
+  <dlg:text dlg:id="lblApiUrl" dlg:tab-index="0" dlg:left="5" dlg:top="10" dlg:width="60" dlg:height="12" dlg:value="API URL:"/>
+  <dlg:textfield dlg:id="txtApiUrl" dlg:tab-index="1" dlg:left="70" dlg:top="8" dlg:width="170" dlg:height="15" dlg:value="http://127.0.0.1:1234"/>
+  
+  <dlg:text dlg:id="lblModelName" dlg:tab-index="2" dlg:left="5" dlg:top="30" dlg:width="60" dlg:height="12" dlg:value="Model:"/>
+  <dlg:textfield dlg:id="txtModelName" dlg:tab-index="3" dlg:left="70" dlg:top="28" dlg:width="170" dlg:height="15" dlg:value="local-model"/>
+  
+  <dlg:text dlg:id="lblPrompt" dlg:tab-index="4" dlg:left="5" dlg:top="50" dlg:width="60" dlg:height="12" dlg:value="Prompt:"/>
+  <dlg:textfield dlg:id="txtPrompt" dlg:tab-index="5" dlg:left="5" dlg:top="65" dlg:width="235" dlg:height="100" dlg:multiline="true"/>
+  
+  <dlg:button dlg:id="btnOK" dlg:tab-index="6" dlg:left="120" dlg:top="175" dlg:width="50" dlg:height="15" dlg:value="Apply" dlg:button-type="ok"/>
+  <dlg:button dlg:id="btnCancel" dlg:tab-index="7" dlg:left="180" dlg:top="175" dlg:width="50" dlg:height="15" dlg:value="Cancel" dlg:button-type="cancel"/>
+ </dlg:bulletinboard>
+</dlg:window>
