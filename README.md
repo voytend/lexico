@@ -39,3 +39,4 @@ Lexico is a powerful, locally-run AI assistant natively integrated into LibreOff
 3. Navigate to **Tools > Extension Manager**.
 4. Click **Add** and select the built `Lexico.oxt` file.
 5. Restart LibreOffice.
+6. You'll see a Lexico button at the top.
